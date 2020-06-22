@@ -13,6 +13,10 @@ servidor en NodeJS(comedor-back) las cuales se ejecutarán de forma independient
 Es necesario ubicarse dentro de la carpeta `comedor-front` y ejecutar el siguiente comando:
 
 ```sh
+$ npm install
+```
+y enseguida
+```sh
 $ ng serve
 ```
 
@@ -38,9 +42,7 @@ En este caso hay que ubicarse dentro de la carpeta `comedor-back` y ejecutar el 
 ```sh
 $ npm install
 ```
-
-o usando nodemon
-
+y correrlo usando nodemon
 ```sh
 $ nodemon server.js
 ```
