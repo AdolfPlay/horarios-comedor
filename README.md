@@ -1,7 +1,7 @@
 # horarios-comedor
 #### Prueba horarios comedor
 
-**Nota** Esta no es la raiz del proyecto.
+**Nota** - Esta no es la raiz del proyecto.
 
 ## Proyecto
 
@@ -16,7 +16,7 @@ Es necesario ubicarse dentro de la carpeta `comedor-front` y ejecutar el siguien
 $ ng serve
 ```
 
-Este proyecto correrá en el puerto 4200 y cuenta con dos rutas.
+Este proyecto correrá en el puerto **4200** y cuenta con dos rutas.
 
 #### Rutas
 
@@ -45,7 +45,7 @@ o usando nodemon
 $ nodemon server.js
 ```
 
-Este proyecto correrá en el puerto 3000 y cuenta con dos rutas.
+Este proyecto correrá en el puerto **3000** y cuenta con dos rutas.
 
 #### Rutas
 
@@ -55,7 +55,7 @@ Suponiendo que el host es `localhost` las rutas son las siguientes:
 
 Esta muestra una documentación generada con el framework Swagger. Que permite visualizar el API con un diseño amigable.
 
-**Nota** Podría necesitar cambiarse el puerto en el campo de texto. El puerto correcto es 3000.
+**Nota** - Podría necesitar cambiarse el puerto en el campo de texto. El puerto correcto es **3000**.
 
 ##### http://localhost:3000/horario
 
