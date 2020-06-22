@@ -59,4 +59,4 @@ Esta muestra una documentación generada con el framework Swagger. Que permite v
 
 ##### http://localhost:3000/horario
 
-Esta es la URI qeu contiene los metodos de agregar y obtener el listado de horarios solicitados para la prueba.
+Esta es la URI que contiene los metodos de agregar y obtener el listado de horarios solicitados para la prueba.
