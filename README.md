@@ -1,7 +1,7 @@
 # horarios-comedor
 #### Prueba horarios comedor
 
-**Note** Esta no es la raiz del proyecto.
+**Nota** Esta no es la raiz del proyecto.
 
 ## Proyecto
 
@@ -32,3 +32,31 @@ En esta se cuenta con una tabla que listará los datos del último archivo carga
 En la carpeta `csv` se encuentran dos archivos con contenidos diferentes para realizar pruebas.
 
 ### Back-end NodeJS
+
+En este caso hay que ubicarse dentro de la carpeta `comedor-back` y ejecutar el siguiente comando:
+
+```sh
+$ npm install
+```
+
+o usando nodemon
+
+```sh
+$ nodemon server.js
+```
+
+Este proyecto correrá en el puerto 3000 y cuenta con dos rutas.
+
+#### Rutas
+
+Suponiendo que el host es `localhost` las rutas son las siguientes:
+
+##### http://localhost:3000/api-docs 
+
+Esta muestra una documentación generada con el framework Swagger. Que permite visualizar el API con un diseño amigable.
+
+**Nota** Podría necesitar cambiarse el puerto en el campo de texto. El puerto correcto es 3000.
+
+##### http://localhost:3000/horario
+
+Esta es la URI qeu contiene los metodos de agregar y obtener el listado de horarios solicitados para la prueba.
