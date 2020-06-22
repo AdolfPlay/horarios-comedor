@@ -1,0 +1,9 @@
+.header{
+  text-align: center;
+}
+.content{
+  margin: 100px;
+}
+.custom-file-input:lang(en)~.custom-file-label::after {
+  content: "Buscar";
+}

@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="content">
+    <div class="header">
+      <h2>Listado de horarios</h2>
+    </div>
+    <div class="row pt-4">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <table class="table text-center" id="horarios">
+          <tr>
+            <th *ngFor="let col of columns">
+              {{col}}
+            </th>
+          </tr>
+          <tr *ngFor="let horario of horarios">
+            <td *ngFor="let col of index">
+              {{horario[col]}}
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row pt-2 text-center">
+      <div class="col-12">
+        <a routerLink="/" class="btn btn-link">Cargar archivo</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
